@@ -17,7 +17,7 @@ public abstract class AbstractRecord {
 
     public abstract int getRecordSize();
 
-    @Override
+   
     public String toString() {
         return "Record{"
                 + "author=" + author + '\'
@@ -28,4 +28,4 @@ public abstract class AbstractRecord {
 
 
 
-}
+
